@@ -2,6 +2,8 @@
 IoT-Testboard for Raspberry pi and ESP8266
 
 In order to get the IoT-Evaluation board running you need a recent image of Raspian-Linux.
+https://www.raspberrypi.org/downloads/raspbian/
+
 Furthermore you need to install a few more libraries.
 
 ## Wiring Pi
