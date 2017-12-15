@@ -27,3 +27,6 @@ screen /dev/ttyUSB0 115200
 
 now you should have a terminal open that can "talk" to the ESP8266 module.
 Type: 1+1 or print ("Hello world") and see what happens.
+
+Post request with MicroPython:
+https://techtutorialsx.com/2017/06/18/esp32-esp8266-micropython-http-post-requests/
