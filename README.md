@@ -26,7 +26,11 @@ make
 git clone https://github.com/adafruit/Adafruit_Python_DHT
 
 ## NeoPixel WS2812:
+sudo apt-get update
+
 sudo apt-get install icons
+
+sudo apt-get install scons
 
 sudo apt-get install swig
 
