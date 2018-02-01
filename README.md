@@ -45,3 +45,8 @@ sudo pip install pytz (for timezone calculation)
 ## Optional: Node.JS latest version
 sudo wget -O - https://raw.githubusercontent.com/audstanley/NodeJs-Raspberry-Pi/master/Install-Node.sh | sudo bash;
 node -v;
+
+## Mqtt ##
+Install MQTT Broker: sudo apt-get install moquitto
+Install MQTT Pyhon lib: pip install paho-mqtt
+see also: https://www.dinotools.de/2015/04/12/mqtt-mit-python-nutzen/
