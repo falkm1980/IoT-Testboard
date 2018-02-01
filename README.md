@@ -50,4 +50,5 @@ node -v;
 Install MQTT Broker: sudo apt-get install moquitto
 
 Install MQTT Pyhon lib: pip install paho-mqtt
+
 see also: https://www.dinotools.de/2015/04/12/mqtt-mit-python-nutzen/
