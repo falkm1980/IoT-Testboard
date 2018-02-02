@@ -18,7 +18,8 @@ def Open():
 		raise Exception("error creating SPI object")
 
 	spi.open(0,1)
-
+	spi.max_speed_hz = 50000
+	
 # gets the raw binary value from the ADC on the given channel
 def GetRawValue(channel=0, differential=False):
 	global spi
