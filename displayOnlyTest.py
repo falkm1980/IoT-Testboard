@@ -98,4 +98,4 @@ def Test2():
 #		break
 
 if __name__ == "__main__":
-	Test2()
+	Test()
