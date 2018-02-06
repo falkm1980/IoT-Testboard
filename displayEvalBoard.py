@@ -93,7 +93,7 @@ def Test2():
 				lastupdate = datetime.datetime.now()
 				humidity, temperature = DHT.GetTempAndHumidity(11, 4)
 				first = False
-				print "update of temp:" + str(diff.seconds)
+				print ("update of temp:" + str(diff.seconds))
 
 			dateTime = GetDateTimeByTimezone()
 			canvas.DrawBitmap((10,10), logo)

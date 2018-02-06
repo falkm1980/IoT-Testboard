@@ -55,7 +55,7 @@ def CleanUp():
 
 
 def main():
-	print "Main..."
+	print ("Main...")
 
 #	displayEvalBoard.Test()
 
@@ -72,4 +72,4 @@ if __name__ == "__main__":
 		main()
 	except KeyboardInterrupt:
 		CleanUp()
-		print "bye-bye...."
+		print ("bye-bye....")

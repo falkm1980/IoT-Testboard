@@ -59,7 +59,7 @@ if __name__ == '__main__':
 	while True:
 		for i in range(0,8):
 			w = GetVoltageValue(i)
-			print "Channel: " + str(i) + " - " + str(w)
+			print ("Channel: " + str(i) + " - " + str(w))
 		
 		time.sleep(2)
 

@@ -44,6 +44,6 @@ if __name__ == "__main__":
 
 	except KeyboardInterrupt:
 		LedOff(strip)
-		print "bye-bye...."
+		print ("bye-bye....")
 
 

@@ -34,7 +34,7 @@ def Test():
 	Setup()
 	while True:
 		dist = MeasureDistance()
-		print "Distance:",dist,"cm"
+		print ("Distance:"+str(dist) + "cm")
 		time.sleep(1)
 
 
@@ -43,5 +43,5 @@ if __name__ == "__main__":
 		Test()
 	except KeyboardInterrupt:
 		GPIO.cleanup()
-		print "bye-bye...."
+		print ("bye-bye....")
 

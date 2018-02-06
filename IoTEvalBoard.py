@@ -77,7 +77,7 @@ thread2 = None
 def main():
 	global thread1
 	global thread2
-	print "Main..."
+	print ("Main...")
 
 #	displayEvalBoard.Test()
 
@@ -104,4 +104,4 @@ if __name__ == "__main__":
 		ws2812.LedOff(ledStrip)
 		thread2.join()
 		CleanUp()
-		print "bye-bye...."
+		print ("bye-bye....")
