@@ -60,7 +60,7 @@ def Test():
 			sDistance = 'Distance: {0:0.1f} cm'.format(dist)
 #			w = ADC.GetVoltageValue(0)
 			w = 3.45
-			sz = canvas.DrawTextCenter(10, "IoT-EvalBoard", font=font1, fill=(0,255,0))
+			sz = canvas.DrawTextCenter(10, "IoT-EvalBoard", font=fontDigital, fill=(0,255,0))
 			sz = canvas.DrawTextCenter(10+sz[1]+5, dateTime[1], font=fontDigital, fill=(0,255,0))
 			sz = canvas.DrawLineCenter(sz[2] + MARGIN_Y, 200, fill=(255,0,0))
 			s = 'Temp={0:0.1f}  Humidity={1:0.1f}%'.format(temperature, humidity)
