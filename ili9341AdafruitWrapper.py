@@ -20,9 +20,9 @@ SPI_DEVICE = 0
 
 
 class ili9341AdafruitWrapper():
-    def __init__(self, (width, height)):
+    def __init__(self, resolution):
         self.disp = disp = TFT.ILI9341x(DC, rst=RST, spi=SPI.SpiDev(SPI_PORT, SPI_DEVICE, max_speed_hz=64000000))
-        self.screenSize = (width, height)
+        self.screenSize = (resolution[0], resolution[1])
         self.disp.begin()
         
     def display(self, image):
