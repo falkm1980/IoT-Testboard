@@ -12,7 +12,7 @@ def Setup():
 	GPIO.setup(ECHO,GPIO.IN)
 	GPIO.output(TRIG, False)
 
-	print "Waiting For Sensor To Settle"
+	print ("Waiting For Sensor To Settle")
 	time.sleep(2)
 
 def MeasureDistance():
