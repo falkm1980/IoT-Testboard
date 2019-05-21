@@ -8,7 +8,7 @@ import dhtSensorEvalBoard as DHT
 
 import mcp3008 as ADC
 
-
+ 
 ledOutput = [14,15,23,12,16,20,21,26]
 
 btnInput = [5,6,13]
